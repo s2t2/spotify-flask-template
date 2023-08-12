@@ -21,3 +21,11 @@ SPOTIPY_CLIENT_ID="_________"
 SPOTIPY_CLIENT_SECRET="_________"
 
 ```
+
+
+## Usage
+
+
+```sh
+FLASK_APP="web_app" flask run
+```
