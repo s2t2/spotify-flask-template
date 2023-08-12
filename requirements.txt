@@ -1,0 +1,9 @@
+
+python-dotenv
+
+spotipy
+
+flask
+#gunicorn # production
+
+pytest
