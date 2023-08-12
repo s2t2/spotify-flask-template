@@ -1,0 +1,16 @@
+{% extends "bootstrap_5_layout.html" %}
+{% set active_page = "user_playlists" %}
+
+{% block content %}
+
+    <h1>Playlists</h1>
+
+    <p>Here are some of your playlists:</p>
+
+    <ul>
+        {% for playlist_name in playlists %}
+            <li>{{ playlist_name }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
